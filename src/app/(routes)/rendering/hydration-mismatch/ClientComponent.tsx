@@ -3,6 +3,9 @@
 import ServerComponent from './ServerComponent';
 import { useState, useEffect } from 'react';
 
+/**
+ * Don't do this strategy!
+ */
 export default function ClientComponent() {
   const [isClient, setIsClient] = useState(false);
 
